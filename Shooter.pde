@@ -47,11 +47,19 @@ void setup() {
 }
 
 void draw() {
-  if(gameSeq == 0){
-    gameTitle();
-  }else if(gameSeq == 1){
-    gamePlay();
-  }  
+  switch(GameSetting.game_state){
+    case 0:
+      break;
+    case 1:
+      break;
+    case 2:
+      break;
+    case 3:
+      break;
+    default:
+      println("不明な状態");
+      break;
+  }
 }
 
 void gameTitle() {
