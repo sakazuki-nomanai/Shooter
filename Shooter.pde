@@ -6,18 +6,21 @@ import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 
 /**
-  c 2018 Micon Club
+  2018 NIT,Yuge Micon Club
+  
   @author T.Murakami
+  b58v.oeg@gmail.com
+  
   シューティングゲームの元型
   使えるかもしれない
 */
 
 
 PFont font;
-PImage Player;
-int gameSeq;
-int pX;
-int pY;
+PImage Player;  //自機画像
+int gameSeq;  //ゲーム進行制御
+int pX;  //
+int pY;  
 int bX;
 int bY;
 int pWidth;

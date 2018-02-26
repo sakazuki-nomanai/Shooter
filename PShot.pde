@@ -9,4 +9,9 @@ class PShot extends Point{
   int knd;
   float angle;
   float spd;
+  
+  PShot(){
+    flag = false;
+    power = 0;
+  }
 }
