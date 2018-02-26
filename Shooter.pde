@@ -1,6 +1,13 @@
+import ddf.minim.*;
+import ddf.minim.analysis.*;
+import ddf.minim.effects.*;
+import ddf.minim.signals.*;
+import ddf.minim.spi.*;
+import ddf.minim.ugens.*;
+
 /**
-  c 2018 Micon Club, Tomoya Murakami
-  Author:Tomoya Murakami
+  c 2018 Micon Club
+  @author T.Murakami
   シューティングゲームの元型
   使えるかもしれない
 */
