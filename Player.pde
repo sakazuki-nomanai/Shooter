@@ -19,5 +19,25 @@ class Player extends Point {
   private int is_accept_input;
   private int is_bombing;
   
+  private int start_x[] = {
+    -5, 5,
+    -10, 10,
+    -5, 5,
+    -10, 10,
+    -4, 4
+  };
+  
+  private int start_y[] = {
+    6, 6,
+    6, 6,
+    2, 2,
+    6, 6,
+    2, 2
+  };
+  
+  Player(){
+    Image.charaImg = loadImage("player1.png");
+  }
+  
   
 }
