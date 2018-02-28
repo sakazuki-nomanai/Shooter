@@ -37,6 +37,9 @@ PFont font;
 void setup() {
   size(500, 700, FX2D);
   //Player = loadImage("player1.png");
+  Image.charaImg = loadImage("player1.png");
+  Image.bulletImg = loadImage("plater_shot1.png");
+  Image.enemyBulletImg = loadImage("enemybullet1.png");
   background(0);
   fill(255);
   font = createFont("Meiryo UI", 10.5);
